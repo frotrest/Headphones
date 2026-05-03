@@ -1,18 +1,35 @@
-# React + Vite
+# Project Overview
+The Headphones website showcases the most convenient and efficient audio device for comfort and high-quality sound. The project serves as a learning pet project that demonstrates practical React patterns, adaptive UI and integration with external APIs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose
 
-Currently, two official plugins are available:
+Provide a compact, usable interface for checking, reading, and asking the questions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Serve as a portfolio piece showing frontend architecture, responsive design, and integration with third‑party services.
 
-## React Compiler
+## Features
+Core Functionality
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Responsive Views: you can enjoy the website using any type of device;
 
-Note: This will impact Vite dev & build performances.
+Slider: to ensure the quality of headphones you can check the reviews of out customers.
 
-## Expanding the ESLint configuration
+FAQ: it's normal to have questions and we've already known that in advance, we created FAQ sections with most common user questions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Animations on Scroll: elements annotated with data-animate are animated when they enter the viewport using IntersectionObserver.
+
+Accessible Actions: you can fluently interact with website elements.
+
+Mobile sidebar navigation to move across the site.
+
+## React for UI.
+
+Swiper for sliders.
+
+CSS Modules for scoped styling.
+
+IntersectionObserver for scroll-triggered animations.
+
+useAnimateOnScroll — custom hook that observes [data-animate] elements.
+
+Keep DOM-manipulating logic inside useEffect.
