@@ -19,7 +19,10 @@ const Guarantees = () => {
   ];
   return (
     <section className={clsx(styles.guarantees)}>
-      <Container className={clsx(styles.guaranteesContent)} dataAnimate="fadeInUp">
+      <Container
+        className={clsx(styles.guaranteesContent)}
+        dataAnimate="fadeInUp"
+      >
         <img
           src={GuaranteesImg}
           alt="guarantees-img"

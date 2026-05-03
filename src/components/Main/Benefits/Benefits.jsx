@@ -19,7 +19,10 @@ const Benefits = () => {
   ];
   return (
     <section className={clsx(styles.benefits)}>
-      <Container className={clsx(styles.benefitsContent)} dataAnimate="fadeInRight">
+      <Container
+        className={clsx(styles.benefitsContent)}
+        dataAnimate="fadeInRight"
+      >
         <img
           src={Listener}
           alt="listener"

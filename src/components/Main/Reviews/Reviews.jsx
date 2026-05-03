@@ -49,7 +49,11 @@ const Reviews = () => {
     stopAllVideos();
   };
   return (
-    <section className={clsx(styles.reviews)} id="reviews" data-animate="fadeInLeft">
+    <section
+      className={clsx(styles.reviews)}
+      id="reviews"
+      data-animate="fadeInLeft"
+    >
       <Swiper
         modules={[Pagination, EffectFade]}
         effect="fade"

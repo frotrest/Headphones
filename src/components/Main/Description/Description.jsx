@@ -24,7 +24,10 @@ const Description = () => {
   ];
   return (
     <section className={clsx(styles.description)} id="characteristics">
-      <Container className={clsx(styles.descriptionContent)} dataAnimate="fadeInLeft">
+      <Container
+        className={clsx(styles.descriptionContent)}
+        dataAnimate="fadeInLeft"
+      >
         <h2 className={clsx(styles.descriptionContentTitle)}>
           capable of so much
         </h2>

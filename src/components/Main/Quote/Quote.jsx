@@ -8,7 +8,10 @@ import { FaQuoteRight } from 'react-icons/fa';
 const Quote = () => {
   return (
     <section className={clsx(styles.quote)}>
-      <Container className={clsx(styles.quoteContent)} dataAnimate="fadeInRight">
+      <Container
+        className={clsx(styles.quoteContent)}
+        dataAnimate="fadeInRight"
+      >
         <img
           src={QuoteAuthor}
           alt="quote-img"
