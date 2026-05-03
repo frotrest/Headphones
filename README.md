@@ -1,5 +1,5 @@
 # Project Overview
-The Headphones website showcases the most convenient and efficient audio device for comfort and high-quality sound. The project serves as a learning pet project that demonstrates practical React patterns, adaptive UI and integration with external APIs.
+The Headphones website showcases the most convenient and efficient audio device for comfort and high-quality sound. The project serves as a learning pet project that demonstrates practical React patterns, adaptive UI.
 
 ## Purpose
 
