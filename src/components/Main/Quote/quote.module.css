@@ -1,0 +1,76 @@
+.quote {
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .quote {
+    padding-top: 30px;
+  }
+}
+
+.quoteContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .quoteContent {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.quoteText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+@media (max-width: 768px) {
+  .quoteText {
+    gap: 30px;
+  }
+}
+
+.quoteTextTitle {
+  width: 380px;
+  color: rgba(231, 231, 231, 1);
+  font-family: 'Gilroy';
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1200px) {
+  .quoteTextTitle {
+    width: 295px;
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;
+  }
+}
+
+.quoteTextItem {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'Gilroy';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 70%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 768px) {
+  .quoteTextItem {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 125%;
+  }
+}

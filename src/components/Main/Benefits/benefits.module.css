@@ -1,0 +1,176 @@
+.benefits {
+  padding-top: 170px;
+}
+
+@media (max-width: 1200px) {
+  .benefits {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits {
+    padding-top: 50px;
+  }
+}
+
+.benefitsContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .benefitsContent {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+
+.BenefitsText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .BenefitsText {
+    gap: 30px;
+  }
+}
+
+.BenefitsTextTitle {
+  margin: 0px;
+  color: rgba(231, 231, 231, 1);
+  font-family: 'Gilroy';
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 2%;
+  width: 465px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .BenefitsTextTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    width: 295px;
+  }
+}
+
+@media (max-width: 768px) {
+  .BenefitsTextTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    width: 205px;
+  }
+}
+
+.BenefitsTextSubTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .BenefitsTextSubTitles {
+    gap: 30px;
+  }
+}
+
+.BenefitsTextCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .BenefitsTextCard {
+    gap: 15px;
+  }
+}
+
+.BenefitsTextCardTitle {
+  color: rgba(231, 231, 231, 1);
+  font-family: 'Gilroy';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+
+@media (max-width: 1200px) {
+  .BenefitsTextCardTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 125%;
+    letter-spacing: 0%;
+  }
+}
+
+.BenefitsTextCardItem {
+  width: 510px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0px;
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 145%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1200px) {
+  .BenefitsTextCardItem {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: 0%;
+    width: 295px;
+  }
+}
+
+@media (max-width: 768px) {
+  .BenefitsTextCardItem {
+    width: 280px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .benefitsContentImg {
+    width: 355px;
+    height: 540px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefitsContentImg {
+    width: 280px;
+    height: 293px;
+  }
+}

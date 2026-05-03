@@ -1,0 +1,156 @@
+.bose {
+  padding-top: 170px;
+}
+
+@media (max-width: 1200px) {
+  .bose {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bose {
+    padding-top: 50px;
+  }
+}
+
+.boseContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .boseContent {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.boseText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+@media (max-width: 1200px) {
+  .boseText {
+    gap: 30px;
+  }
+}
+
+.boseTextTitle {
+  color: rgba(231, 231, 231, 1);
+  font-family: 'Gilroy';
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .boseTextTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .boseTextTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+  }
+}
+
+.boseTextCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .boseTextCard {
+    gap: 15px;
+  }
+}
+
+.boseTextCardTitle {
+  color: rgba(231, 231, 231, 1);
+  font-family: 'Gilroy';
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1200px) {
+  .boseTextCardTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 125%;
+    letter-spacing: 0%;
+  }
+}
+
+.boseTextCardItem {
+  width: 380px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 145%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1200px) {
+  .boseTextCardItem {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: 0%;
+    width: 290px;
+  }
+}
+
+@media (max-width: 768px) {
+  .boseTextCardItem {
+    width: 280px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .boseContentImg {
+    width: 355px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .boseContentImg {
+    width: 280px;
+    height: 253px;
+  }
+}

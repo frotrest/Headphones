@@ -1,0 +1,173 @@
+.guarantees {
+  padding-top: 170px;
+}
+
+@media (max-width: 1200px) {
+  .guarantees {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guarantees {
+    padding-top: 50px;
+  }
+}
+
+.guaranteesContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .guaranteesContent {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+
+.guaranteesText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+@media (max-width: 1200px) {
+  .guaranteesText {
+    gap: 30px;
+  }
+}
+
+.guaranteesTextTitle {
+  color: rgba(231, 231, 231, 1);
+  font-family: 'Gilroy';
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .guaranteesTextTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .guaranteesTextTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+  }
+}
+
+.guaranteesCards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+@media (max-width: 1200px) {
+  .guaranteesCards {
+    gap: 55px;
+  }
+}
+
+.guaranteesCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.guaranteesCardTitle {
+  color: rgba(231, 231, 231, 1);
+  font-family: 'Gilroy';
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1200px) {
+  .guaranteesCardTitle {
+    color: rgba(231, 231, 231, 1);
+    font-family: 'Gilroy';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 125%;
+    letter-spacing: 0%;
+  }
+}
+
+.guaranteesCardTitle::before {
+  display: block;
+  margin-bottom: 25px;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: rgba(223, 61, 58, 1);
+  border-radius: 100%;
+}
+
+.guaranteesCardItem {
+  width: 400px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 145%;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1200px) {
+  .guaranteesCardItem {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: 0%;
+    width: 295px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guaranteesCardItem {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0%;
+    width: 280px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .guaranteesContentImg {
+    width: 355px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .guaranteesContentImg {
+    width: 280px;
+    height: 268px;
+  }
+}
