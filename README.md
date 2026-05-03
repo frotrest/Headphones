@@ -12,7 +12,7 @@ Core Functionality
 
 Responsive Views: you can enjoy the website using any type of device;
 
-Slider: to ensure the quality of headphones you can check the reviews of out customers.
+Slider: to ensure the quality of headphones you can check the reviews of our customers.
 
 FAQ: it's normal to have questions and we've already known that in advance, we created FAQ sections with most common user questions.
 
