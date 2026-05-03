@@ -46,7 +46,10 @@ const FeedBack = () => {
         alt="workspace"
         className={clsx(styles.feedBackImg)}
       />
-      <Container className={clsx(styles.feedBackContent)} dataAnimate="fadeInRight">
+      <Container
+        className={clsx(styles.feedBackContent)}
+        dataAnimate="fadeInRight"
+      >
         <div className={clsx(styles.feedBackText)}>
           <h2 className={clsx(styles.feedBackTextTitle)}>Feedback</h2>
           <p className={clsx(styles.feedBackTextItem)}>
